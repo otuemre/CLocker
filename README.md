@@ -1,4 +1,4 @@
-# CLocker
+# CLocker - An XOR File Locker
 
 CLocker is a lightweight educational file locker built in C. It encrypts and decrypts files within a given directory using XOR encryption and renames them based on their locked status.
 
@@ -38,7 +38,7 @@ CLocker is a lightweight educational file locker built in C. It encrypts and dec
 ### Compile
 
 ```bash
-gcc main.c locker.c -o CLocker.exe
+gcc main.c locker.c -o locker.exe
 ```
 
 > No need for `dirent.c` if you're using the self-contained `dirent.h`.
@@ -50,7 +50,7 @@ gcc main.c locker.c -o CLocker.exe
 After compiling:
 
 ```bash
-./CLocker.exe
+./locker.exe
 ```
 
 Example input:
