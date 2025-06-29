@@ -1,0 +1,20 @@
+# Ignore build system files
+*.o
+*.obj
+*.out
+*.log
+
+# VSCode settings
+.vscode/
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Ignore executable files EXCEPT locker.exe
+*.exe
+!locker.exe
+
+# Ignore Mac/Linux metadata (just in case)
+.DS_Store
