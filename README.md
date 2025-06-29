@@ -73,4 +73,4 @@ This project was created solely for educational and demonstration purposes.
 
 ## License
 
-MIT License — see `LICENSE` file if included.
+Licensed under the [MIT License](./LICENSE.md). You’re free to use and modify responsibly.
